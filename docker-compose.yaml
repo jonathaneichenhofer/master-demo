@@ -16,6 +16,8 @@ services:
       - POSTGRES_PASSWORD=password
       - POSTGRES_DATABASE=appointments
       - PORT=3000
+      - NODE_ENV=production
+      - HONEYCOMB_API_KEY=FWqTs3rQTmE1er45EdCRrD
     networks:
       - nest_network  
   db:
